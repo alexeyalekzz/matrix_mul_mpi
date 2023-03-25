@@ -1,3 +1,9 @@
+## Build and run
+```
+Usage: ./build_n_run.sh <mode> <number_of_threads> <rows_A> <cols_A> <rows_B> <cols_B>
+    mode    - 'row' / 'col' / 'block'
+```
+
 ## Main differences
 ### Алгоритм 1: разделение по строкам
 
