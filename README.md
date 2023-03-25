@@ -5,6 +5,11 @@ Usage: ./build_n_run.sh <mode> <number_of_threads> <rows_A> <cols_A> <rows_B> <c
 ```
 
 ## Main differences
+
+### Config:
+CPU: AMD Ryzen 5 5600X, 3.7GHz, 6 core, 12 threads
+Compiler: gcc 11.3.0, *Optimizations turned off*.
+
 ### Алгоритм 1: разделение по строкам
 
 * Матрица A разбивается на куски по строкам и каждый кусок передаётся процессу с помощью MPI.Scatter
